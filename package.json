@@ -1,6 +1,6 @@
 {
   "name": "mediawiki2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Meidawiki Bot Framework",
   "main": "lib/index.js",
   "scripts": {
