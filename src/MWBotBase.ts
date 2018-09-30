@@ -35,7 +35,7 @@ export class MWBotBase {
       body: data as any,
       redirect: 'follow'
     })
-    return resp
+    return resp as any
   }
 
   public async rawRequest(data: FormData) {

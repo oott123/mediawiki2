@@ -1,6 +1,6 @@
 import { Readable } from 'stream'
 
-interface IMWEditPartialArgs {
+export interface IMWEditBaseArgs {
   section?: number
   sectiontitle?: string
   text?: string
@@ -27,8 +27,8 @@ interface IMWEditPartialArgs {
 }
 
 export type IMWEditArgs =
-  | (IMWEditPartialArgs & { title: string })
-  | (IMWEditPartialArgs & { pageid: number })
+  | (IMWEditBaseArgs & { title: string })
+  | (IMWEditBaseArgs & { pageid: number })
 
 export interface IMWSimpleUploadArgs {
   filename: string
