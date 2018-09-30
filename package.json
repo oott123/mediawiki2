@@ -9,6 +9,10 @@
     "preversion": "yarn clean && yarn build"
   },
   "author": "oott123",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oott123/mediawiki2.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/debug": "^0.0.30",
