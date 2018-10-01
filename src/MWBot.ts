@@ -64,7 +64,7 @@ export class MWBot extends MWBotBase {
       args.file = createReadStream(args.file)
     }
     const resp = await this.requestWithToken('upload', args)
-    console.log(resp.upload)
+    // console.log(resp.upload)
     this.checkResult(resp.upload)
     return resp.upload
   }
